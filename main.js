@@ -8,9 +8,9 @@
     let card_name_form = document.getElementById("card_name");
     let card_name_text = document.getElementById("card_name_text")
     
-    let month_expiration = document.getElementById("month");
+    let month_expiration = document.getElementById("input3");
     let month_expiration_text = document.getElementById("month_text");
-    let year_expiration = document.getElementById("year");
+    let year_expiration = document.getElementById("input4");
     let year_expiration_text = document.getElementById("year_text");
 
     let signature_text = document.getElementById("signature_text");
